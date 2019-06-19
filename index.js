@@ -1,8 +1,15 @@
 
-var takeANumber = function(c_Line,c_name){
-  c_Line.push(c_name);
-   return "Welcome, "+c_name+ ". You are number " + c_Line.length + " in line." 
-  }
+//var takeANumber = function(c_Line,c_name){
+//  c_Line.push(c_name);
+//   return "Welcome, "+c_name+ ". You are number " + c_Line.length + " in line." 
+//  }
+var takeANumber = function(c_Line,c_num){
+  c_Line.push(c_num)
+  let i=0;
+  i++
+  
+  return "welcome, you're number" + c_num
+}
   
 var nowServing = function(c_Line){
   if (c_Line.length > 0){
